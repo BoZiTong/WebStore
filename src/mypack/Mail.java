@@ -91,7 +91,7 @@ public class Mail {
         MimeMessage message = new MimeMessage(session);
 
         // 2. From: 发件人
-        message.setFrom(new InternetAddress(sendMail, "教室预约管理系统", "UTF-8"));
+        message.setFrom(new InternetAddress(sendMail, "aditiiWebStore", "UTF-8"));
 
         // 3. To: 收件人（可以增加多个收件人、抄送、密送）
         message.setRecipient(MimeMessage.RecipientType.TO, new InternetAddress(receiveMail, "用户", "UTF-8"));
