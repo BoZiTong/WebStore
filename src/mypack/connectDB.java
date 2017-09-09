@@ -6,7 +6,7 @@ public class connectDB {
 	//public static final String url = "jdbc:mysql://192.168.214.131:3306/webstore";
 	public static final String url = "jdbc:mysql://localhost:3306/webstore";
 	public static final String username = "root";
-	public static final String password = "samael86";
+	public static final String password = "";
 	
 	public Connection conn = null;
 	private Statement stmt = null;
